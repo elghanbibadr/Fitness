@@ -1,0 +1,48 @@
+header{
+    background: url(/images/home-bg.jpg);
+   
+   }
+   
+    .nav{
+   
+     h1{
+         color: white;
+         strong{
+             color: $primary;
+         }
+     }
+     .navbar-toggler{
+         background-color: orange;
+         box-shadow: 0 0 10px $primary;
+     }
+     svg{
+   height: 1.5rem;
+   width: 1.5rem;
+   }
+        .navbar-collapse{
+            flex-grow: 0;
+        }
+       //  list
+      .nav-item .nav-link{
+           color: white ;
+           margin-inline: 1rem;
+           text-transform: capitalize;
+           font-weight: bold;
+           &:hover{
+               color: #ccc;
+           }
+       }
+    }
+    .hero{
+        margin-top: 5rem;
+        p{
+            color: $primary;
+        }
+        h1{
+            font-weight: bold;
+        }
+        &__content{
+            margin-top: 4rem;
+        }
+       
+    }
