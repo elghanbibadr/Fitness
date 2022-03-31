@@ -12050,12 +12050,15 @@ header {
   color: #ccc;
 }
 
-.hero2 {
-  margin-top: 4rem;
+.counter {
+  background: url(/images/counter-bg.jpg);
 }
 
-.hero2__smalText {
-  font-size: 1rem;
-  color: #ccc;
+.counter h1, .counter .h1 {
+  color: #e9520d;
+}
+
+.counter__content {
+  margin-block: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

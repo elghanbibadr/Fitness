@@ -1,0 +1,10 @@
+// counter
+.counter{
+    background: url(/images/counter-bg.jpg);
+    h1{
+        color: $primary;
+    }
+    &__content{
+        margin-block: 2rem;
+    }
+}
