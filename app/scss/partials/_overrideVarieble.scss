@@ -1,0 +1,23 @@
+$primary:rgb(233, 82, 13);
+h1,a,p{
+    color: white
+}
+p{
+    font-size: 1.3rem;
+}$primary:rgb(233, 82, 13);
+h1,a,p{
+    color: white
+}
+p{
+    font-size: 1.3rem;
+}
+.btn{
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0 0 10px $primary;
+    padding: 9px 16px;
+    background-color: $primary;
+    color: white;
+    font-weight: bold;
+}
