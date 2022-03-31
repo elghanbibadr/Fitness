@@ -12049,4 +12049,13 @@ header {
   font-size: 1rem;
   color: #ccc;
 }
+
+.hero2 {
+  margin-top: 4rem;
+}
+
+.hero2__smalText {
+  font-size: 1rem;
+  color: #ccc;
+}
 /*# sourceMappingURL=main.css.map */
