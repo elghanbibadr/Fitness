@@ -2,6 +2,10 @@ h1, .h1, a, p {
   color: white;
 }
 
+body {
+  background: url(/images/home-bg.jpg);
+}
+
 p {
   font-size: 1.3rem;
 }
@@ -12060,5 +12064,13 @@ header {
 
 .counter__content {
   margin-block: 2rem;
+}
+
+.courses .card {
+  margin: 2rem;
+}
+
+.courses .card .btn {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
