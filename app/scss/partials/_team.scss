@@ -1,0 +1,12 @@
+.team{
+    position: relative;
+    // margin: 1rem;
+    img{
+        object-fit: cover;
+    }
+    .roll{
+        position: absolute;
+        bottom: 0;
+        
+    }
+}

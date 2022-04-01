@@ -12081,4 +12081,18 @@ header {
 .courses .card .btn {
   color: white;
 }
+
+.team {
+  position: relative;
+}
+
+.team img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .roll {
+  position: absolute;
+  bottom: 0;
+}
 /*# sourceMappingURL=main.css.map */
