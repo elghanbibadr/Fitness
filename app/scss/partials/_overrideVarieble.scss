@@ -1,4 +1,5 @@
 $primary:rgb(233, 82, 13);
+
 h1,a,p{
     color: white
 }
@@ -24,3 +25,14 @@ p{
     color: white;
     font-weight: bold;
 }
+// mixins
+@mixin md {
+    @media (max-width: 786px) {
+      @content;
+    }
+  }
+@mixin md-andGreater {
+    @media (min-width: 786px) {
+      @content;
+    }
+  }

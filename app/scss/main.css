@@ -12073,4 +12073,12 @@ header {
 .courses .card .btn {
   color: white;
 }
+
+.courses .card {
+  margin: 2rem;
+}
+
+.courses .card .btn {
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */

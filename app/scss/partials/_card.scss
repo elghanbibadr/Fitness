@@ -1,0 +1,44 @@
+.plans{
+    padding: 4rem;
+}
+.card{
+    margin-block: 1rem;
+    &__features{
+        li{
+            margin-block: 1rem;
+            color: rgb(229, 229, 229);
+            span svg{
+                height: 1rem;
+                width: 1rem;
+                fill:$primary;
+                margin: 0;
+               
+            }
+            .svg-gray{
+                fill: #ccc;
+                height:13px;
+            }
+        }
+      
+    }
+    // set up a mixing manually
+    @include md {
+       width: 70%;
+       margin-inline: auto;
+    }
+    &--popular{
+        @include md-andGreater {
+         transform: scaleX(1.2) scaleY(1.1);
+        }
+    }
+    h4{
+        margin-bottom: 2rem;
+      
+    }
+     h1{
+         @include md-andGreater {
+            margin-top:-1rem;
+            }
+     }
+   
+}
