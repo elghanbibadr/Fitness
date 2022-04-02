@@ -1,0 +1,30 @@
+footer{
+    background: url('/images/footer-bg.jpg');
+    .media{
+        margin-block: 0.8rem;
+        @include md-andGreater{
+            position: relative;
+            left: 5rem;
+        }
+        h5{
+            margin-block: 1rem;
+            font-weight: normal;
+        }
+    }
+    li{
+        margin-block: 10px;
+        color: rgb(227, 227, 227);
+        strong{
+            color: $primary;
+        }
+        span img{
+            height: 1.4rem;
+            margin-right: 10px;
+            width:1rem;
+            position: relative;
+            left: -5px;
+            
+
+        }
+    }
+}

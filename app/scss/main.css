@@ -12123,4 +12123,41 @@ header {
 .blog__icons {
   margin-top: 2rem;
 }
+
+footer {
+  background: url("/images/footer-bg.jpg");
+}
+
+footer .media {
+  margin-block: 0.8rem;
+}
+
+@media (min-width: 786px) {
+  footer .media {
+    position: relative;
+    left: 5rem;
+  }
+}
+
+footer .media h5, footer .media .h5 {
+  margin-block: 1rem;
+  font-weight: normal;
+}
+
+footer li {
+  margin-block: 10px;
+  color: #e3e3e3;
+}
+
+footer li strong {
+  color: #e9520d;
+}
+
+footer li span img {
+  height: 1.4rem;
+  margin-right: 10px;
+  width: 1rem;
+  position: relative;
+  left: -5px;
+}
 /*# sourceMappingURL=main.css.map */
