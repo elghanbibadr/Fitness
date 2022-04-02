@@ -12095,4 +12095,32 @@ header {
   position: absolute;
   bottom: 0;
 }
+
+.dailyBlog p {
+  color: #e9520d !important;
+}
+
+.blog {
+  padding: 0;
+}
+
+.blog svg {
+  height: 1rem;
+  width: 1rem;
+  fill: #e9520d;
+}
+
+@media (max-width: 786px) {
+  .blog {
+    width: 65%;
+  }
+}
+
+.blog .card-title {
+  margin-block: 1rem;
+}
+
+.blog__icons {
+  margin-top: 2rem;
+}
 /*# sourceMappingURL=main.css.map */
