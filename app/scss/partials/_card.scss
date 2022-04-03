@@ -8,15 +8,15 @@
             margin-block: 1rem;
             color: rgb(229, 229, 229);
             span svg{
-                height: 1rem;
-                width: 1rem;
+                height: 1rem !important;
+                width: 1rem !important;
                 fill:$primary;
                 margin: 0;
                
             }
             .svg-gray{
                 fill: #ccc;
-                height:13px;
+                height:13px !important;
             }
         }
       
